@@ -1,0 +1,114 @@
+.goc-icon {
+	font-family: "goc";
+	font-style: normal;
+	font-weight: normal;
+	speak-as: none;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+
+	/* You can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.goc-ancient-horn:before {
+	content: '\e800';
+}
+
+/* '' */
+.goc-ancient-trumpet:before {
+	content: '\e801';
+}
+
+/* '' */
+.goc-dragon:before {
+	content: '\e802';
+}
+
+/* '' */
+.goc-castle:before {
+	content: '\e804';
+}
+
+/* '' */
+.goc-crown:before {
+	content: '\e805';
+}
+
+/* '' */
+.goc-treasure-chest:before {
+	content: '\e807';
+}
+
+/* '' */
+
+.goc-icon-xs {
+	font-size: .75em
+}
+
+.goc-icon-sm {
+	font-size: .875em
+}
+
+.goc-icon-lg {
+	font-size: 1.33em;
+	vertical-align: -25%
+}
+
+.goc-icon-2x {
+	font-size: 2em
+}
+
+.goc-icon-3x {
+	font-size: 3em
+}
+
+.goc-icon-4x {
+	font-size: 4em
+}
+
+.goc-icon-5x {
+	font-size: 5em
+}
+
+.goc-icon-6x {
+	font-size: 6em
+}
+
+.goc-icon-7x {
+	font-size: 7em
+}
+
+.goc-icon-8x {
+	font-size: 8em
+}
+
+.goc-icon-9x {
+	font-size: 9em
+}
+
+.goc-icon-10x {
+	font-size: 10em
+}
